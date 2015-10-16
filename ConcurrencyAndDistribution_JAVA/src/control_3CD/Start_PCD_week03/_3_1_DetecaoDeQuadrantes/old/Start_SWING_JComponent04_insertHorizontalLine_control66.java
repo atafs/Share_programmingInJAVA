@@ -6,8 +6,6 @@ import java.awt.event.MouseMotionListener;
 
 import javax.swing.JFrame;
 
-import pt.progJava.americoLib.control66.Line_JComponent;
-
 public class Start_SWING_JComponent04_insertHorizontalLine_control66 {
 	private Line_JComponent canvas1 = new Line_JComponent();
 	private JFrame frame = new JFrame("My paint");
