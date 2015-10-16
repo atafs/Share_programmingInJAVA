@@ -167,18 +167,15 @@ public class GUI_RACE03_HORSES_control84 extends JFrame {
 				}
 			}
 			
-			else if(arg0.getSource() == update) {
-			
+			else if(arg0.getSource() == update) {	
 				/* definir novo texto em branco */
 				texto1.setText(threads.get(0).getCounterThreadString());
 				texto2.setText(threads.get(1).getCounterThreadString());
 				texto3.setText(threads.get(2).getCounterThreadString());
 				
 				texto1.repaint();
-				texto1.validate();
-				
+				texto1.validate();				
 			}
 		}
 	}
-
 }
