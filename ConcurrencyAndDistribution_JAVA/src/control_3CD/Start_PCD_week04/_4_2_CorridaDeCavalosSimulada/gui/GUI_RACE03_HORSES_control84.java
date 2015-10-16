@@ -150,6 +150,7 @@ public class GUI_RACE03_HORSES_control84 extends JFrame {
 		setLocation(50, 50);
 		setResizable(true);
 		setVisible(true);
+		setResizable(false);
 	}
 
 
